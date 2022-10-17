@@ -67,15 +67,45 @@ CIRCUIT DIAGRAM
 
 
 ### PROGRAM :
- 
+```
+#Name: Silambarsan K
+#Roll No: 212221230101
 
 
+#include<Servo.h>
+Servo s1;
+void setup()
+{
+  s1.attach(9);
+}
+void loop()
+{
+  for(int i=0;i<=100;i+=1)
+  {s1.write(120);
+  delay(15);
+}
+  for(int i=100; i>=0;i-=1)
+  {
+    s1.write(i);
+    delay(15);
+}
+}
 
 
+```
+### OUTPUT:
+#### circuit OFF setup
+![R1](https://user-images.githubusercontent.com/94525786/196165940-2b99ef73-9aad-4e4f-a867-bf6a1f71a757.png)
 
+#### circuit ON setup
+![R2](https://user-images.githubusercontent.com/94525786/196165968-1c74a749-18b8-46ac-af2d-0df5b8857354.png
 
+#### Serial monitor:
+![3](https://user-images.githubusercontent.com/94525786/196166447-77737a58-06e7-434a-a84b-f27b89516b36.png)
 
-
+#### Toggle graph:
+![4](https://user-images.githubusercontent.com/94525786/196166465-541a692a-2bce-4634-b0c9-c184180c0cf0.png)
 
 ### RESULTS: 
 Arduino uno interfacing with servo motor is learned and angular position is controlled using PWM signal.
+
