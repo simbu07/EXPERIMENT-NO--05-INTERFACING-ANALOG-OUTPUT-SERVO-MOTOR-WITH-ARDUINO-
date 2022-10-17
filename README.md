@@ -98,7 +98,7 @@ void loop()
 ![R1](https://user-images.githubusercontent.com/94525786/196165940-2b99ef73-9aad-4e4f-a867-bf6a1f71a757.png)
 
 #### circuit ON setup
-![R2](https://user-images.githubusercontent.com/94525786/196165968-1c74a749-18b8-46ac-af2d-0df5b8857354.png
+![R2](https://user-images.githubusercontent.com/94525786/196165968-1c74a749-18b8-46ac-af2d-0df5b8857354.png)
 
 #### Serial monitor:
 ![3](https://user-images.githubusercontent.com/94525786/196166447-77737a58-06e7-434a-a84b-f27b89516b36.png)
