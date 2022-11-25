@@ -57,10 +57,10 @@ An external controller (such as the Arduino) tells the servo where to go with a 
 
 ### PROGRAM :
 ```
-#Name: Silambarsan K
-#Roll No: 212221230101
-
-
+Developed By: Silambarsan K
+Roll No: 212221230101
+```
+```
 #include<Servo.h>
 Servo s1;
 void setup()
@@ -79,8 +79,6 @@ void loop()
     delay(15);
 }
 }
-
-
 ```
 ### OUTPUT:
 #### circuit OFF setup
